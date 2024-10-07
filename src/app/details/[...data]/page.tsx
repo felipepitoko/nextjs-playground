@@ -1,8 +1,11 @@
+'use client'
 interface DetailsProps{
     params: {
         data: string[]
     }
 }
+
+//Server components por default => nenhum console.log vai rolar na página!
 
 export default function Details({params}: DetailsProps){
     const [
@@ -19,6 +22,7 @@ export default function Details({params}: DetailsProps){
                 <li>Nome do produto: {productName}</li>
                 <li>Preço do produto: {productPrice}</li>
             </ul>
+            <button className='text-black bg-white' onClick={() => console.log('clicou')}>Clique aqui</button>
         </div>
     )
 }
