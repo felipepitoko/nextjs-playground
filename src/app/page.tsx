@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import githubIcon from "../public/github-svgrepo-com.svg";
 import emailIcon from "../public/email-svgrepo-com.svg";
 import pythonIcon from "../public/python-svgrepo-com.svg";

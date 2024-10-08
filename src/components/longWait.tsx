@@ -5,6 +5,10 @@ export default async function LongWait(){
         }, 5000)
     })
 
+    wait.then((value) => {
+        console.log(value)
+    })
+
     return (
         <div>
             <h1>This guy loaded!</h1>
